@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{background-color: #e7e7e7;}
+body{background-color: #beb8b8;}
 h1{
     color: rgb(204, 15, 204);
     font-size: 25px;
@@ -21,9 +21,8 @@ p{
     font-size: 14px;
 }
 img{border: 3px dotted rgb(0, 255, 106);}
-
+/* Вертикальное меню*/
 .menu ul{
-    display: flex;
     width: 100%;
     list-style: none;
     font-family: 'Courier New', Courier, monospace;
@@ -33,157 +32,30 @@ img{border: 3px dotted rgb(0, 255, 106);}
     text-decoration: none;
     margin-right: 20px;
 }
-
-table td.content table td:nth-child(4) img{
+td.personalimg1>img{
     width: 160px;
     box-sizing: border-box;
     object-fit: contain;
     background-color: rgb(52, 10, 167);
 }
-
-.about ul>li:nth-child(1){font-variant: small-caps;}
-.about ol>li{font-variant: normal;}
-.about ol>li:nth-child(1){font-weight: 100;}
-.about ol>li:nth-child(2){font-weight: 300;}
-.about ol>li:nth-child(3){font-size: 15px;}
-.about ol>li:nth-child(4){font-size: 20px;}
-.about ol>li:nth-child(5){color: #7777ee}
-.about ul>li:nth-child(2){color: rgba(15, 75, 44, .2)}
-.about ul>li:nth-child(3){font: italic normal 700 15px "Roboto"}
-
-.wrapper{
-    width: 1000px;
-    margin: 0 auto;
+td.personalimg2>img{
+    width: 160px;
+    box-sizing: border-box;
+    object-fit: contain;
+    background-color: rgb(52, 10, 167);
 }
-header{
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+td.personalimg3>img{
+    width: 160px;
+    box-sizing: border-box;
+    object-fit: contain;
+    background-color: rgb(52, 10, 167);
 }
-a{
-    font-size: 14px;
-    font-family: 
-    'Lucida Sans',
-    'Lucida Sans Regular',
-    'Lucida Grande',
-    'Lucida Sans Unicode',
-    Geneva, Verdana, sans-serif;
-    color: rgb(14, 247, 208);
-    text-decoration: underline;
+td.personalimg4>img{
+    width: 160px;
+    box-sizing: border-box;
+    object-fit: contain;
+    background-color: rgb(52, 10, 167);
 }
-a:hover{
-    color: rgb(13, 185, 36);
-    text-decoration: none;
-}
-.menu{
-    height: 50px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.menu-link, .menu-link:visited{
-    color: #fff;
-    text-decoration: none;
-    transition: color .3s ease-out;
-}
-.vertical-menu a.menu-link{
-    color: #000
-}
-.vertical-menu a.menu-link:hover,
-.menu-link:hover{
-    color: rgb(0, 0, 0);
-}
-.vertical-menu{
-    display: flex;
-    flex-direction: column;
-    background-color: #c4c4c4;
-    width: 100px;
-}
-.content-col{
-    display: flex;
-}
-.menu, footer{
-    background-color: rgb(59, 12, 231);
-}
-footer{
-    height: 100px;
-}
-
-/* Order */
-/* Форма */
-form{
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
-}
-label{
-    margin-bottom: 5px;
-}
-input{
-    margin-left: 5px;
-}
-.labelOrder{
-    display: flex;
-    flex-direction: column;
-}
-input[type=number]{
-    width: 32px;
-}
-.calculation{
-    display: flex;
-    width: 280px;
-    justify-content: space-between;
-}
-input[type=checkbox]{
-    margin-right: 5px;
-    margin-left: 0;
-}
-input[type=submit]{
-    margin-left: 0;
-}
-input[type=password]:focus,
-input[type=number]:focus,
-input[type=email]:focus,
-input[type=text]:focus,
-select:focus
-{
-    outline: 1px solid rgb(9, 211, 110);
-    outline-offset: -1px;
-}
-
-.content table{
-    border: 1px solid rgb(16, 30, 218);
-    border-spacing: 0;
-}
-.content table td{
-    border: 1px solid rgb(216, 19, 203);
-    word-break: break-word;
-    font-size: 12px;
-}
-.content table tr:nth-child(1) td:nth-child(1){
-    width: 25px;
-}
-.content table tr:nth-child(1) td:nth-child(2){
-    width: 200px;
-}
-.content table tr:nth-child(1) td:nth-child(3){
-    width: 100px;
-}
-.content table tr:nth-child(2) td:nth-child(1){
-    width: 55px;
-}
-.content table tr:nth-child(1),
-.content table tr:nth-child(2),
-.content table tr:nth-child(3),
-.content table tr:nth-child(4){
-    font-weight: 700;
-    text-align: center;
-    vertical-align: top;
-}
-.content table tr:nth-last-child(1) td:nth-child(1){
-    text-align: right;
-    font-weight: 700;
-}
+table td ul li a.mvd{
+    color: rgb(117, 112, 117);
+}   
