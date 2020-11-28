@@ -3,14 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{background-color: #beb8b8;}
+body{background-color: #85717171;}
 h1{
     color: rgb(204, 15, 204);
     font-size: 25px;
     font-weight: medium;
 }
 h2{
-    color: rgb(0, 255, 85);
+    color: rgb(29, 95, 51);
     font-size: 20px;
     font-weight: 500;
 }
@@ -56,6 +56,75 @@ td.personalimg4>img{
     object-fit: contain;
     background-color: rgb(52, 10, 167);
 }
-table td ul li a.mvd{
+a.mvd{
     color: rgb(117, 112, 117);
-}   
+}
+.pod{
+    color: #098a09;
+    font-family: Garamond;
+    font-size: 16px;
+} 
+.gorizont{
+    width: 100%;
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+     
+}
+.gorizont a{
+    color: rgb(129, 119, 119);
+    text-decoration: none;
+    margin-right: 20px;
+}
+.cont1 {
+    color: #460909;
+    font-family: 'Zapf', Times, serif;
+    font-style: oblique;
+    font-size: 18px;
+}
+.order{
+    color: #091372;
+    font-family: 'Univers', Georgia, serif; 
+    font-style: italic;
+    font-variant: normal;
+    font-weight: bold;
+
+}
+.order label{
+    color: #091372;
+    font-family: 'Univers', Georgia, serif;
+    font-style: italic; 
+    font-variant: normal;
+    font-weight: bold;  
+}
+.order input{
+    color: #226d13;
+    font-family: 'Times New Roman', Times, serif;   
+}
+.tex{
+    color: #054d4975;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 14px;
+    font-weight: bold;  
+}
+.educ{
+    color: #09172b52;
+    font-family: 'Comic Sans', Times, serif;
+    font-style: oblique;
+    font-size: 20px;
+    font-weight: bold;  
+}    
+.educ h3{
+    color: #0765e752;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 22px;
+    font-weight: bold;    
+}
+.emp {
+    color: #15025a52;
+    font-family: 'Verdana', Times, serif;
+    font-style: normal;
+    font-size: 22px;
+    font-weight: bold;  
+}
