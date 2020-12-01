@@ -156,10 +156,9 @@ a.mvd{
         background: #a9d62d;
 
     }
-    #sidebar {
-        height: 250px;
+    #sidebar { 
         width: 125px; /* Ширина слоя */
-    padding: 0 10px; /* Отступы вокруг текста */
+        padding: 10px; /* Отступы вокруг текста */
     float: left; /* Обтекание по правому краю */
     text-align: center;
     background: #81aa10ad;
@@ -167,7 +166,7 @@ a.mvd{
     #content {
     margin-left: 130px; /* Отступ слева */
     padding: 10px; /* Поля вокруг текста */
-    background: #2dd643;
+    background: #a8f3b2;
     }
 #footer {
     padding: 5px; /* Отступы вокруг текста */
@@ -177,8 +176,8 @@ a.mvd{
    .menu A:link { text-decoration: none; }
 .menu A:visited { text-decoration: none; }
 .menu A:active { text-decoration: none; }
-.menu A:hover {
-    
+.menu A:hover {  
+    padding-left: 10px;
 text-decoration: underline overline; /* Ссылка подчеркнутая и надчеркнутая */
 color: brown;   /* Цвет ссылки */
 }
@@ -192,4 +191,32 @@ color: rgb(28, 111, 219);   /* Цвет ссылки */
     text-decoration: none;   
 color: rgb(28, 111, 219);   /* Цвет ссылки */
 }
- 
+ ul {
+    list-style-type: disc;
+    }
+ ol{
+    list-style-type: decimal;  
+ }
+ .menu1 li {
+    display: inline-block; /* Выстраиваем по горизонтали */
+    border-right: 2px solid rgb(24, 23, 23);
+}
+.educ table{
+    background: rgb(240, 221, 221);
+    border: 1px  #5a77fad5;
+    margin-top:50px;
+    color: #94b2e0;
+    font-family: 'Comic Sans', Times, serif;
+    font-style: oblique;
+    font-size: 20px;
+    font-weight: bold;  
+}
+ .tr1 td{
+    background: rgba(247, 4, 4, 0.726); /* Цвет фона ячеек */
+    padding: 2px; /* Поля вокруг текста */
+    color: #f0f2f5;
+    font-family: 'Comic Sans', Times, serif;
+    font-style: oblique;
+    font-size: 20px;
+    font-weight: bold;  
+    }
