@@ -220,3 +220,6 @@ color: rgb(28, 111, 219);   /* Цвет ссылки */
     font-size: 20px;
     font-weight: bold;  
     }
+    .educ table  td:hover{
+        visibility: hidden;
+        }
