@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{background-color: #85717171;}
+body{background-color: #f7d5d571;}
 h1{
     color: rgb(204, 15, 204);
     font-size: 25px;
@@ -22,13 +22,22 @@ p{
 }
 img{border: 3px dotted rgb(0, 255, 106);}
 /* Вертикальное меню*/
+.menu1 ul{
+    width: 100%;
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+.menu1 a{
+    color: rgb(40, 16, 146);
+    margin-right: 20px;
+}
 .menu ul{
     width: 100%;
     list-style: none;
     font-family: 'Courier New', Courier, monospace;
 }
 .menu a{
-    color: white;
+    color: rgb(78, 49, 49);
     text-decoration: none;
     margin-right: 20px;
 }
@@ -128,3 +137,64 @@ a.mvd{
     font-size: 22px;
     font-weight: bold;  
 }
+#container {
+    width: 100%; /* Ширина слоя */
+    margin: 0 auto; /* Выравнивание по центру */
+    border: 1px solid black;
+    }
+    #header {
+    font-size: 2.2em; /* Размер текста */
+    text-align: center; /* Выравнивание по центру */
+    padding: 5px; /* Отступы вокруг текста */
+    color: #ffe; /* Цвет текста */
+    border: 1px solid black;
+    }
+    #vermenu{
+        height: 50px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid black;
+        background: #a9d62d;
+
+    }
+    #sidebar {
+    margin-top: 10px;
+    width: 110px; /* Ширина слоя */
+    padding: 0 10px; /* Отступы вокруг текста */
+    float: left; /* Обтекание по правому краю */
+    text-align: center;
+    border: 1px solid black; 
+    background: #81aa10ad;
+    }
+    #content {
+    margin-left: 130px; /* Отступ слева */
+    padding: 10px; /* Поля вокруг текста */
+    border: 1px solid black;
+    background: #2dd643;
+    }
+#footer {
+    padding: 5px; /* Отступы вокруг текста */
+    clear: left; /* Отменяем действие float */
+    border: 1px solid black;
+    }
+   .menu A:link { text-decoration: none; }
+.menu A:visited { text-decoration: none; }
+.menu A:active { text-decoration: none; }
+.menu A:hover {
+    
+text-decoration: underline overline; /* Ссылка подчеркнутая и надчеркнутая */
+color: brown;   /* Цвет ссылки */
+}
+.menu1 A:visited { text-decoration: none; }
+.menu1 A:active { text-decoration: none; }
+.menu1 A:hover {
+    text-decoration: none;   
+color: rgb(28, 111, 219);   /* Цвет ссылки */
+}
+.order input:hover {
+    text-decoration: none;   
+color: rgb(28, 111, 219);   /* Цвет ссылки */
+}
+ 
