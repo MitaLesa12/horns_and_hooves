@@ -140,14 +140,12 @@ a.mvd{
 #container {
     width: 100%; /* Ширина слоя */
     margin: 0 auto; /* Выравнивание по центру */
-    border: 1px solid black;
     }
     #header {
     font-size: 2.2em; /* Размер текста */
     text-align: center; /* Выравнивание по центру */
     padding: 5px; /* Отступы вокруг текста */
     color: #ffe; /* Цвет текста */
-    border: 1px solid black;
     }
     #vermenu{
         height: 50px;
@@ -155,29 +153,26 @@ a.mvd{
         display: flex;
         align-items: center;
         justify-content: center;
-        border: 1px solid black;
         background: #a9d62d;
 
     }
     #sidebar {
-    margin-top: 10px;
-    width: 110px; /* Ширина слоя */
+        height: 250px;
+        width: 125px; /* Ширина слоя */
     padding: 0 10px; /* Отступы вокруг текста */
     float: left; /* Обтекание по правому краю */
     text-align: center;
-    border: 1px solid black; 
     background: #81aa10ad;
     }
     #content {
     margin-left: 130px; /* Отступ слева */
     padding: 10px; /* Поля вокруг текста */
-    border: 1px solid black;
     background: #2dd643;
     }
 #footer {
     padding: 5px; /* Отступы вокруг текста */
     clear: left; /* Отменяем действие float */
-    border: 1px solid black;
+    background: #a9d62d;
     }
    .menu A:link { text-decoration: none; }
 .menu A:visited { text-decoration: none; }
