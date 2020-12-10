@@ -31,6 +31,15 @@ img{border: 3px dotted rgb(0, 255, 106);}
     color: rgb(40, 16, 146);
     margin-right: 20px;
 }
+.menu2 ul{
+    width: 100%;
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+.menu2 a{
+    color: rgb(40, 16, 146);
+    margin-right: 20px;
+}
 .menu ul{
     width: 100%;
     list-style: none;
@@ -137,41 +146,52 @@ a.mvd{
     font-size: 22px;
     font-weight: bold;  
 }
+.menu2{
+    display: none;
+}
 #container {
     width: 100%; /* Ширина слоя */
     margin: 0 auto; /* Выравнивание по центру */
+   
     }
     #header {
     font-size: 2.2em; /* Размер текста */
     text-align: center; /* Выравнивание по центру */
     padding: 5px; /* Отступы вокруг текста */
     color: #ffe; /* Цвет текста */
+    background: linear-gradient(to right, #F6EFD2, #CEAD78);
+    height: 60px;
+    font-style: oblique;
     }
     #vermenu{
-        height: 50px;
-        width: 100%;
+
         display: flex;
         align-items: center;
         justify-content: center;
         background: #a9d62d;
+        background: radial-gradient(ellipse, #FEFFFF, #A7CECC);
 
     }
     #sidebar { 
-        width: 125px; /* Ширина слоя */
+
         padding: 10px; /* Отступы вокруг текста */
     float: left; /* Обтекание по правому краю */
     text-align: center;
-    background: #81aa10ad;
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+    opacity: .8;
+
     }
     #content {
-    margin-left: 130px; /* Отступ слева */
+        margin-left: 265px; /* Отступ слева */
     padding: 10px; /* Поля вокруг текста */
-    background: #a8f3b2;
+    background: linear-gradient(to right, #65db5a, #b49768c5);
     }
 #footer {
     padding: 5px; /* Отступы вокруг текста */
     clear: left; /* Отменяем действие float */
     background: #a9d62d;
+    background: radial-gradient(ellipse, #FEFFFF, #A7CECC);
+    height: 30px;
     }
    .menu A:link { text-decoration: none; }
 .menu A:visited { text-decoration: none; }
@@ -223,3 +243,127 @@ color: rgb(28, 111, 219);   /* Цвет ссылки */
     .educ table  td:hover{
         visibility: hidden;
         }
+    .tp{
+        position: fixed;
+        right: 45px;
+        bottom: 45px;
+        opacity: .3;
+    } 
+     .tp:hover {
+        text-decoration: none;
+    color: rgb(28, 111, 219);   /* Цвет ссылки */
+     }
+     max-width:(699px);{
+     #unit {
+        position:absolute;
+        max-height:100%;
+        max-width:98%;
+        padding:10px;
+        color: #000; /* синий цвет текста */
+        font-size:15pt; /* Размер шрифта в пикселах*/
+    }
+     }
+        img:hover {
+        left:500px;
+        color: #000; /* синий цвет текста */
+        font-size:15pt; /* Размер шрифта в пикселах*/
+        background:#fc0fc0;
+        }
+        .unit img{
+        border-radius: 9px;
+        box-shadow: 0px 5px 5px rgb(61, 65, 63);
+        }
+        .immg li{
+            display: inline-block;    
+        }
+        .immg img{
+            border-radius: 9px;
+            box-shadow: 0px 5px 5px rgb(112, 185, 149);
+            }
+            li ul {
+                width: 12px;
+                display: none; /* Скрываем подменю */
+                margin-left: 100px; /* Сдвигаем подменю вправо */
+                margin-top: -2em; /* Сдвигаем подменю вверх */
+                color: #cab8b975;
+                font-family: 'Times New Roman', Times, serif;
+                background-color: #5488af;
+                }
+            li a:hover {
+                color: #ffe; /* Цвет текста активного пункта */
+                background-color: #5488af; /* Цвет фона активного пункта */
+                }
+                li:hover ul {
+                display: block; /* При выделении пункта курсором мыши отображается
+                подменю */
+                }
+                .brd {
+                border-bottom: 1px solid #ccc; /* Линия снизу */
+                }
+                #navbar li:hover ul { display: block; }
+                #navbar, #navbar ul {
+                margin: 0;
+                padding: 0;
+                list-style-type: none;
+                }
+                #navbar ul li { float: none; }
+                 #navbar li:hover { background-color: #f90; }
+                  #navbar ul li:hover { background-color: #666; }
+                    @media (max-width:1100px){
+                        #container{
+                            max-width: 970px;
+                        }
+                    } 
+                    @media(max-width:1000px){
+                        #sidebar{
+                            display: none;
+                        } 
+                        #header{
+                            background: linear-gradient(to right, #928e7d, #724e13);
+                        } 
+                        #vermenu{
+                            background: linear-gradient(to right, #50ee30, #a4da11);
+                        }
+                        #content{
+                            background: linear-gradient(to right, #deec5e, #a4da11); 
+                            width: 100%; 
+                            align-items: center;
+                            justify-content: center;
+                            margin-left: 0px;
+                        }
+                        #footer{
+                            background: linear-gradient(to right, #50ee30, #a4da11);
+                        }
+                    }
+                    @media (max-width:992px){
+                        #container{
+                            max-width: 720px;
+                        }
+                    }
+                    @media (max-width:767px){
+                        #container{
+                            max-width: 650;
+                        }
+                    }
+                    @media (max-width:670px){
+                        #container{
+                            max-width: 550;
+                        }
+                        .menu1{
+                          display: none;
+                            margin:10px;
+                            padding:10px;
+                    }
+                    .menu2{
+                        display: block;
+                    }
+                    #header{
+                        height:55px;
+                    }
+                    #footer{
+                     height: 25px;
+                    }
+                   
+                }
+                  
+                       
